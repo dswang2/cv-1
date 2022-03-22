@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>汪迪生的简历在跳</title>
+  </head>
+  <body>
+    <style id="sty"></style>
+    <div id="demo"></div>
+    <script src="main.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        word-break: break-all;
+      }
+      /* 媒体查询 */
+      @media (max-width: 500px) {
+        #demo {
+          height: 50vh;
+          overflow: scroll;
+        }
+        #div1 {
+          position: fixed;
+          top: 99vh;
+          left: 50vw;
+          transform: translateY(-100%) translateX(-50%);
+        }
+      }
+    </style>
+    <div id="div1">
+      <!-- <div id="div11">
+        <div id="div110"></div>
+      </div>
+      <div id="div12">
+        <div id="div120"></div>
+      </div> -->
+    </div>
+  </body>
+</html>
